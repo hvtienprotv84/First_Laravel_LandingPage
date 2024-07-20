@@ -60,6 +60,45 @@
         footer span{
             margin-left: 5px;
         }
+
+        @media screen and (max-width: 768px) {
+            html {
+                background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5N7cuLEm2n6GLkGK8_anR6Xl9ZmW853DgVw&s);
+                background-size: contain; /* Đổi từ 'cover' sang 'contain' */
+                
+            }
+            footer{
+            color: white;
+            display: flex;
+            position: absolute;
+            bottom: 0;
+            justify-content: center;
+            font-size: 16px;
+            font-weight: bold;
+            margin-left: 20px;
+            margin-top: -150px;
+            
+        }
+        footer span{
+            margin-left: 5px;
+        }
+        .logo img{
+            width: 80px;
+        }
+        .logo p{
+            color: transparent;
+            font-size: 30px;
+            font-weight: bold;
+            -webkit-text-stroke: 0.1rem #ffffff;
+            margin-left: 20px;
+            width: 450px;
+        }
+        .logo{
+            margin-left: 20px;
+            margin-top: -10px;
+        }
+        }
+
     </style>
 
     <body class="font-sans antialiased dark:bg-black dark:text-white/50">

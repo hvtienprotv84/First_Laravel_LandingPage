@@ -3,6 +3,7 @@
 # First Laravel LandingPage - Trang Laravel Đầu Tiên
 - Laravel (Framework của PHP)
 - SQLite (Không dùng MySQL vì chạy dự án đầu tiên và chỉ thiết kế về Frontend của LandingPage)
+- Responsive Website và Mobile
 
 # Tạo Dự Án
 - Bước 1: mở CMD - Command Prompt
