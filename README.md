@@ -10,7 +10,7 @@
 - Bước 3: Mở Visual Studio Code (VSCode) để mở nguyên thư mục (Folder) dự án của "laravel_landingpage"
 - Bước 4: `php artisan serve` - Để chạy dự án (Project) với port: `http://127.0.0.1:8000/`
 
-- **Trường Hợp 2:**
+## **Trường Hợp 2:**
 - khi chạy dự án ở Bước 4 và ở port: `http://127.0.0.1:8000/` bị lỗi
 - Thông Báo Lỗi: **could not find driver (Connection: sqlite, SQL: PRAGMA foreign_keys = ON;)**
 - thì chạy lệnh `php artisan migrate` để project update lại sqlite
