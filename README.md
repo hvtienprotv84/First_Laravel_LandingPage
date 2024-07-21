@@ -17,6 +17,10 @@
 - thì chạy lệnh `php artisan migrate` để project update lại sqlite
 - và chạy lại dự án với lệnh `php artisan serve` để chạy lại dự án - OK
 
+## **Lưu Ý**
+- Khi Clone Dự Án Về và Chạy Dự Án Thì Trong File .env Sẽ Có `APP_KEY=base64:5dODPS...` Nhưng Sẽ Bị Mất Nên Phải Dùng Lệnh Này Để Được Cung Cấp "APP_KEY" Mới Cho Dự Án Laravel
+
+
 # RUN
 - `composer install` - lệnh này dùng để nếu bạn clone project từ github về thì dùng lệnh này.(còn nếu bạn build project từ đầu như Bước 2 của #Tạo Dự Án thì không cần dùng lệnh này)
 - `php artisan serve` - Để chạy dự án (Project)
